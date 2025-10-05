@@ -132,15 +132,15 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen bg-gray-50 p-4" style={{backgroundImage: 'url(/bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div className="relative min-h-screen bg-gray-50 p-4" style={{backgroundImage: 'url(/bg2.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <div className="flex flex-col items-center w-full">
         {/* Welcome text styled */}
         <h1
           className="text-4xl md:text-5xl font-extrabold mb-8 text-center w-full"
             style={{
               marginTop: '0',
-              color: '#285376',
-              textShadow: '2px 2px 8px #28537655, 0 4px 10px #bce0ffdb',
+              color: '#ffe0d6',
+              textShadow: '1px 1px 1px #285376, 0 2px 3px #bce0ffdb',
             }}
           >
             Welcome to Astra AI Chatbot

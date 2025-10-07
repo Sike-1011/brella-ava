@@ -47,7 +47,7 @@ export default function Home() {
       script.async = true;
       script.onload = () => {
         window.voiceflow.chat.load({
-          verify: { projectID: '68dad3769e66beff3a185476' },
+          verify: { projectID: '68e53cb796177a553ca6e9a6' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           voice: {
